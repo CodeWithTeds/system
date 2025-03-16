@@ -48,11 +48,12 @@ $products = $productModel->getAllProducts();
             <h2 class="display-3 fw-normal">Pet Foodies</h2>
             <div class="mb-4 mb-md-0">
                 <p class="m-0">
-                    <button class="filter-button me-4 active" data-filter="*">ALL</button>
+                            <button class="filter-button me-4 active" data-filter="*">ALL</button>
                     <button class="filter-button me-4" data-filter=".cat">CAT</button>
                     <button class="filter-button me-4" data-filter=".fish">FISH</button>
                     <button class="filter-button me-4" data-filter=".dog">DOG</button>
                     <button class="filter-button me-4" data-filter=".bird">BIRD</button>
+                    <button class="filter-button me-4" data-filter=".rice">RICE</button>
                 </p>
             </div>
             <div>
